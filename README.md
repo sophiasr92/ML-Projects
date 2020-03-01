@@ -1,2 +1,4 @@
-Computer Vision: Autonomous Driving
+#Computer Vision: Autonomous Driving
+
+
 One of the key challenges of the autonomous vehicles is finding out the exact position of vehicles it is surrounded by. The objective of this project is to predict the pose information of all unmasked cars in the test dataset. The Dataset is composed of images of roads and streets which are taken from the top of a car. The dataset consists of seven files which includes the test and training data. The training data is composed of images of cars and its corresponding “pose” data. The pose information is represented as string values. For each of the models of cars there is a string of values associated to it, which are yaw, pitch, roll, x, y, z. These are the “six degrees of freedom” or in other words, the “pose” information of vehicle. Apart from this, the dataset contains masks of images and 3D models of cars, as well as the intrinsic parameters of the camera
